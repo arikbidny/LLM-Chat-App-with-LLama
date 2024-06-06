@@ -98,7 +98,7 @@ def main():
             # print(context)
 
             ### LAMMA CONFIGURATION ###
-            client =  OpenAI(base_url="http://localhost:1234/v1", api_key="")
+            client =  OpenAI(base_url="<ai studio llama url>", api_key="")
 
             prompt = f"You are a helpful assistant to answer questions based on this context: {context}, the question is: {query}"
             print(prompt)
